@@ -2,7 +2,9 @@
 name = "prompting"
 version = "2.17.7"
 description = "Subnetwork 1 runs on Bittensor and is maintained by Macrocosmos. It's an effort to create decentralised AI"
-authors = ["Kalei Brady, Dmytro Bobrenko, Felix Quinque, Steffen Cruz, Richard Wardle"]
+authors = [
+    "Kalei Brady, Dmytro Bobrenko, Felix Quinque, Steffen Cruz, Richard Wardle",
+]
 readme = "README.md"
 
 [tool.poetry.group.dev.dependencies]
@@ -144,6 +146,7 @@ tenacity = "^9.0.0"
 isort = "^5.13.2"
 tiktoken = "^0.8.0"
 pillow = "^11.0.0"
+mathgenerator = "^0.1.0"
 torch = { version = "2.5.1", optional = true }
 # TODO: Switch to original repo when this PR to fix setup gets merged: https://github.com/casper-hansen/AutoAWQ/pull/715
 autoawq = { git = "https://github.com/jiqing-feng/AutoAWQ.git", rev = "ae782a99df2f72a2c28764452844cb2d65bd8ffc", optional = true }
